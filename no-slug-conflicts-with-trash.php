@@ -6,13 +6,13 @@
  */
 /*
 Plugin Name: No Slug Conflicts With Trash
+Description: Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
 Version: 1.0
 Plugin URI: http://coffee2code.com/wp-plugins/no-slug-conflicts-with-trash/
 Author: Scott Reilly
 Author URI: http://coffee2code.com/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Description: Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
 
 Compatible with WordPress 3.5 through 3.7+.
 

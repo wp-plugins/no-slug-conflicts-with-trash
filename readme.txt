@@ -7,7 +7,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
 Tested up to: 3.7
 Stable tag: 1.0
-Version: 1.0
 
 Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
 

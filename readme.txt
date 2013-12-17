@@ -1,12 +1,12 @@
 === No Slug Conflicts with Trash ===
 Contributors: coffee2code
-Donate link: http://coffee2code.com/donate
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ARCFJ9TX3522
 Tags: slug, post_name, post, trash, coffee2code
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
-Tested up to: 3.7
-Stable tag: 1.0
+Tested up to: 3.8
+Stable tag: 1.0.1
 
 Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
 
@@ -63,11 +63,20 @@ Yes.
 
 == Changelog ==
 
+= 1.0.1 =
+* Add `c2c_No_Slug_Conflicts_With_Trash::version()` to return version number for plugin (with unit test)
+* Note compatibility through WP 3.8+
+* Update copyright date (2014)
+* Change donate link
+
 = 1.0 =
 * Initial public release
 
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Trivial update: added version() function to return plugin's version number; noted compatibility through WP 3.8+
 
 = 1.0 =
 Initial public release.

@@ -5,8 +5,8 @@ Tags: slug, post_name, post, trash, coffee2code
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 1.0.1
+Tested up to: 4.0
+Stable tag: 1.0.2
 
 Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
 
@@ -29,7 +29,7 @@ That said, the plugin tries its best to restore untrashed posts to their origina
 
 See the FAQ section for more insight into the plugin's functionality. See WP core [ticket #11863](http://core.trac.wordpress.org/ticket/11863) for discussion on the matter.
 
-Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-slug-conflicts-with-trash/) | [Plugin Directory Page](http://wordpress.org/plugins/no-slug-conflicts-with-trash/) | [Author Homepage](http://coffee2code.com)
+Links: [Plugin Homepage](http://coffee2code.com/wp-plugins/no-slug-conflicts-with-trash/) | [Plugin Directory Page](https://wordpress.org/plugins/no-slug-conflicts-with-trash/) | [Author Homepage](http://coffee2code.com)
 
 
 == Installation ==
@@ -56,12 +56,24 @@ Upon restoration, the original post will retain its original slug. The plugin ke
 
 When a new post gets created, WordPress tries to determine if a conflict exists. If one does, WordPress appends "-" and then a number to the slug until a unique slug is found. Therefore, if "about" is taken, then it tries "about-2". If that's taken, then it tries "about-3" and so on. Rather than let WP assign the "about-2" to the new post, this plugin flips things and gives the new post "about" and the trashed post "about-2".
 
+= Why doesn't WordPress do what this plugin does by default? =
+
+It should! There is an ages-old, still open Trac ticket ([ticket #11863](http://core.trac.wordpress.org/ticket/11863)) concerning how to handle slug conflicts with trashed posts. No consensus to change existing behavior has been reached. Feel free to chime in to the discussion there and advocate the plugin's approach if you agree with how the plugin handles things.
+
 = Does this plugin include unit tests? =
 
 Yes.
 
 
 == Changelog ==
+
+= 1.0.2 (2014-08-25) =
+* Add an FAQ question regarding why WP core doesn't do things the way the plugin does things
+* Minor code reformatting (bracing)
+* Change documentation links to wp.org to be https
+* Change donate link
+* Note compatibility through WP 4.0+
+* Add plugin icon
 
 = 1.0.1 =
 * Add `c2c_No_Slug_Conflicts_With_Trash::version()` to return version number for plugin (with unit test)
@@ -74,6 +86,9 @@ Yes.
 
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Trivial update: noted compatibility through WP 4.0+; added plugin icon.
 
 = 1.0.1 =
 Trivial update: added version() function to return plugin's version number; noted compatibility through WP 3.8+

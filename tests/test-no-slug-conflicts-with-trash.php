@@ -237,7 +237,7 @@ class No_Slug_Conflict_With_Trash_Test extends WP_UnitTestCase {
 	}
 
 	function test_version() {
-		$this->assertEquals( '1.0.1', c2c_No_Slug_Conflicts_With_Trash::version() );
+		$this->assertEquals( '1.0.2', c2c_No_Slug_Conflicts_With_Trash::version() );
 	}
 
 	/**

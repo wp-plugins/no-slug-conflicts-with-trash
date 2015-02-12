@@ -5,8 +5,8 @@ Tags: slug, post_name, post, trash, coffee2code
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 1.0.2
+Tested up to: 4.1
+Stable tag: 1.0.3
 
 Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
 
@@ -67,6 +67,10 @@ Yes.
 
 == Changelog ==
 
+= 1.0.3 (2015-02-11) =
+* Note compatibility through WP 4.1+
+* Update copyright date (2015)
+
 = 1.0.2 (2014-08-25) =
 * Add an FAQ question regarding why WP core doesn't do things the way the plugin does things
 * Minor code reformatting (bracing)
@@ -86,6 +90,9 @@ Yes.
 
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+Trivial update: noted compatibility through WP 4.1+ and updated copyright date
 
 = 1.0.2 =
 Trivial update: noted compatibility through WP 4.0+; added plugin icon.

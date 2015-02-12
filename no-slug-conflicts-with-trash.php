@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: No Slug Conflicts With Trash
- * Version:     1.0.2
+ * Version:     1.0.3
  * Plugin URI:  http://coffee2code.com/wp-plugins/no-slug-conflicts-with-trash/
  * Author:      Scott Reilly
  * Author URI:  http://coffee2code.com/
@@ -9,7 +9,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Description: Prevent the slug of a trashed page or post from conflicting with the slug desired for a new page or post.
  *
- * Compatible with WordPress 3.5 through 4.0+.
+ * Compatible with WordPress 3.5 through 4.1+.
  *
  * TODO:
  * * If post restored under different slug, put in an admin notice that indicates the post was
@@ -35,11 +35,11 @@
  *
  * @package No_Slug_Conflicts_With_Trash
  * @author Scott Reilly
- * @version 1.0.2
+ * @version 1.0.3
  */
 
 /*
-	Copyright (c) 2013-2014 by Scott Reilly (aka coffee2code)
+	Copyright (c) 2013-2015 by Scott Reilly (aka coffee2code)
 
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
@@ -90,7 +90,7 @@ class c2c_No_Slug_Conflicts_With_Trash {
 	 * @return string
 	 */
 	public static function version() {
-		return '1.0.2';
+		return '1.0.3';
 	}
 
 	/**
